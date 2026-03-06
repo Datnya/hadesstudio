@@ -7,3 +7,9 @@ dist
 out
 
 /src/generated/prisma
+node_modules/ 
+.next/ 
+build/ 
+public/video.mp4 
+editor/uploads/ 
+*.mp4 
