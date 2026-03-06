@@ -1,26 +1,13 @@
 {
     "version": 2,
-    "builds": [
-        {
-            "src": "editor/server.js",
-            "use": "@vercel/node"
-        },
-        {
-            "src": "package.json",
-            "use": "@remotion/vercel"
-        }
-    ],
     "routes": [
         {
-            "src": "/api/(.*)",
-            "dest": "editor/server.js"
+            "src": "/editor/(.*)",
+            "dest": "/editor/$1"
         },
         {
-            "src": "/(.*)",
-            "dest": "editor/editor.html"
+            "src": "/api/(.*)",
+            "dest": "/api/$1"
         }
-    ],
-    "env": {
-        "NODE_ENV": "production"
-    }
+    ]
 }
