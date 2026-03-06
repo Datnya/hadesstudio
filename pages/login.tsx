@@ -23,7 +23,7 @@ export default function Login() {
     return (
         <div className="min-h-screen bg-black flex items-center justify-center p-5 text-white">
             <Head>
-                <title>DatnyaesmuyPRO · Ingresar</title>
+                <title>Hades · Ingresar</title>
             </Head>
             <div className="w-full max-w-md bg-gray-900/50 border border-gray-800 p-10 rounded-3xl backdrop-blur-xl text-center shadow-2xl">
                 <div className="flex justify-center items-center gap-3 mb-1">
@@ -32,7 +32,7 @@ export default function Login() {
                         <circle cx="24" cy="30" r="3" fill="black" />
                         <circle cx="40" cy="30" r="3" fill="black" />
                     </svg>
-                    <span className="text-2xl font-[900] tracking-tight">Datnyaesmuy<span className="text-[#00D056]">PRO</span></span>
+                    <span className="text-2xl font-[900] tracking-tight">Hades <span className="text-[#00D056]">Studio</span></span>
                 </div>
                 <p className="text-[10px] text-gray-500 uppercase tracking-[4px] mb-10">Subtitle Engine & Video Editor</p>
 
@@ -48,7 +48,7 @@ export default function Login() {
                         className="w-full bg-gray-950 border border-gray-800 p-4 rounded-xl text-sm focus:border-[#00D056] outline-none transition-colors"
                     />
                     {error && <p className="text-red-500 text-xs font-bold">{error}</p>}
-                    <button type="submit" className="w-full bg-[#00D056] text-black font-extrabold p-4 rounded-xl uppercase text-xs tracking-widest hover:brightness-110 active:scale-95 transition-all shadow-lg shadow-[#00D056]/10">INGRESAR A DATNYA</button>
+                    <button type="submit" className="w-full bg-[#00D056] text-black font-extrabold p-4 rounded-xl uppercase text-xs tracking-widest hover:brightness-110 active:scale-95 transition-all shadow-lg shadow-[#00D056]/10">INGRESAR A HADES</button>
                 </form>
 
                 <p className="mt-8 text-xs text-gray-500">¿No tienes cuenta? <a href="/register" className="text-[#00D056] font-bold hover:underline">Regístrate aquí</a></p>

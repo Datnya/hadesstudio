@@ -23,22 +23,22 @@ export default function Home() {
         finally { setLoading(false); }
     }
 
-    if (status === 'loading') return <div className="min-h-screen bg-black flex items-center justify-center text-white">Sincronizando con Hades...</div>;
+    if (status === 'loading') return <div className="min-h-screen bg-black flex items-center justify-center text-white">Sincronizando con Hades Studio...</div>;
 
     return (
         <div className="min-h-screen bg-black text-white font-sans p-10">
             <Head>
-                <title>DatnyaesmuyPRO · Centro de Control</title>
+                <title>Hades · Centro de Control</title>
             </Head>
 
             <header className="max-w-6xl mx-auto flex justify-between items-end mb-12 border-b border-gray-800 pb-5">
                 <div>
                     <h1 className="text-3xl font-extrabold tracking-tight">HOLA <span className="text-[#00D056]">{(session?.user as any)?.name?.toUpperCase() || 'DATNYA'}</span></h1>
-                    <p className="text-gray-500 font-semibold text-sm mt-1 uppercase tracking-widest">Bienvenido a DatnyaesmuyPRO Studio</p>
+                    <p className="text-gray-500 font-semibold text-sm mt-1 uppercase tracking-widest">Bienvenido a Hades Studio</p>
                     <p className="text-gray-400 text-xs mt-1">Centro de Control de Proyectos</p>
                 </div>
                 <div className="flex items-center gap-5">
-                    <span className="text-xs text-gray-400 bg-gray-900 px-3 py-1 rounded">PRO ACCOUNT</span>
+                    <span className="text-xs text-gray-400 bg-gray-900 px-3 py-1 rounded">MASTER ACCOUNT</span>
                     <button onClick={() => signOut()} className="text-red-500 text-xs font-bold hover:underline">CERRAR SESIÓN</button>
                 </div>
             </header>

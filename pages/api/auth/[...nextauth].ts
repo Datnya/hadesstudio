@@ -13,7 +13,7 @@ export const authOptions: NextAuthOptions = {
             clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
         }),
         CredentialsProvider({
-            name: "DATNYAESMUYPRO",
+            name: "HADES",
             credentials: {
                 email: { label: "Email", type: "text" },
                 password: { label: "Password", type: "password" }

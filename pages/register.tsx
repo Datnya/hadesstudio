@@ -31,7 +31,7 @@ export default function Register() {
 
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <input
-                        placeholder="Username (Datnya)" required
+                        placeholder="Nombre de usuario" required
                         value={username} onChange={(e) => setUsername(e.target.value)}
                         className="w-full bg-gray-900 border border-gray-800 p-4 rounded-xl text-sm outline-none focus:border-[#00D056] transition-all"
                     />

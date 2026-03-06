@@ -398,7 +398,7 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
     console.log(`
   ╔══════════════════════════════════════════════╗
-  ║   🎬  SubtitlePro — Editor de Subtítulos     ║
+  ║   🎬  Hades — Editor de Subtítulos             ║
   ║   http://localhost:${PORT}                       ║
   ╚══════════════════════════════════════════════╝`);
 });
