@@ -1,0 +1,173 @@
+{
+  "name": "Reel 2 Logra",
+  "videoName": "video.mp4",
+  "subtitles": [
+    {
+      "id": 1,
+      "from": 0,
+      "dur": 40,
+      "text": "En el papel,",
+      "hidden": false,
+      "deleted": false
+    },
+    {
+      "id": 2,
+      "from": 41,
+      "dur": 42,
+      "text": "cada proyecto inmobiliario",
+      "hidden": false,
+      "deleted": false
+    },
+    {
+      "id": 3,
+      "from": 89,
+      "dur": 51,
+      "text": "es perfecto. Las",
+      "hidden": false,
+      "deleted": false
+    },
+    {
+      "id": 4,
+      "from": 143,
+      "dur": 51,
+      "text": "proyecciones cuadran y",
+      "hidden": false,
+      "deleted": false
+    },
+    {
+      "id": 5,
+      "from": 197,
+      "dur": 35,
+      "text": "los plazos son",
+      "hidden": false,
+      "deleted": false
+    },
+    {
+      "id": 6,
+      "from": 235,
+      "dur": 51,
+      "text": "una promesa firme.",
+      "hidden": false,
+      "deleted": false
+    },
+    {
+      "id": 7,
+      "from": 290,
+      "dur": 41,
+      "text": "Pero existe una",
+      "hidden": false,
+      "deleted": false
+    },
+    {
+      "id": 8,
+      "from": 335,
+      "dur": 51,
+      "text": "brecha invisible entre",
+      "hidden": false,
+      "deleted": false
+    },
+    {
+      "id": 9,
+      "from": 430,
+      "dur": 51,
+      "text": "el diseño y",
+      "hidden": false,
+      "deleted": true
+    },
+    {
+      "id": 10,
+      "from": 481,
+      "dur": 51,
+      "text": "la ejecución. Es",
+      "hidden": false,
+      "deleted": true
+    },
+    {
+      "id": 11,
+      "from": 532,
+      "dur": 51,
+      "text": "ahí donde el",
+      "hidden": false,
+      "deleted": true
+    },
+    {
+      "id": 12,
+      "from": 583,
+      "dur": 51,
+      "text": "5% de un",
+      "hidden": false,
+      "deleted": true
+    },
+    {
+      "id": 13,
+      "from": 634,
+      "dur": 51,
+      "text": "error de compatibilización",
+      "hidden": false,
+      "deleted": true
+    },
+    {
+      "id": 14,
+      "from": 665,
+      "dur": 51,
+      "text": "puede costar el",
+      "hidden": false,
+      "deleted": true
+    },
+    {
+      "id": 15,
+      "from": 736,
+      "dur": 51,
+      "text": "20% de tu",
+      "hidden": false,
+      "deleted": true
+    },
+    {
+      "id": 16,
+      "from": 731,
+      "dur": 51,
+      "text": "Logra Consulting",
+      "hidden": false,
+      "deleted": false
+    },
+    {
+      "id": 17,
+      "from": 812,
+      "dur": 51,
+      "text": "nació hace más",
+      "hidden": false,
+      "deleted": true
+    },
+    {
+      "id": 18,
+      "from": 783,
+      "dur": 51,
+      "text": "nació de 20 años",
+      "hidden": false,
+      "deleted": false
+    },
+    {
+      "id": 19,
+      "from": 940,
+      "dur": 51,
+      "text": "precisamente para cerrar",
+      "hidden": false,
+      "deleted": false
+    },
+    {
+      "id": 20,
+      "from": 991,
+      "dur": 51,
+      "text": "esa brecha.",
+      "hidden": false,
+      "deleted": false
+    }
+  ],
+  "style": "karaoke",
+  "karaokeColor": "#FFD60A",
+  "totalS": 35.97,
+  "subtitlePosY": 84,
+  "subtitleFontSize": 69,
+  "videoPath": "C:\\Users\\user}\\Desktop\\Yo\\Video Edición\\my-remotion-video\\editor\\uploads\\current-video.mp4",
+  "savedAt": "5/3/2026, 6:04:27 p. m."
+}

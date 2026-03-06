@@ -1,0 +1,18 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/delete-project": "pages/api/delete-project.js",
+  "/api/export-video": "pages/api/export-video.js",
+  "/api/list-projects": "pages/api/list-projects.js",
+  "/api/login": "pages/api/login.js",
+  "/api/load-project": "pages/api/load-project.js",
+  "/api/save-project": "pages/api/save-project.js",
+  "/api/update-project": "pages/api/update-project.js",
+  "/": "pages/index.html",
+  "/api/register": "pages/api/register.js",
+  "/login": "pages/login.html",
+  "/register": "pages/register.html",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

@@ -1,17 +1,18 @@
-import "./index.css";
+import React from "react";
 import { Composition } from "remotion";
 import { MyComposition } from "./Composition";
+import { VIDEO_DURATION_FRAMES, VIDEO_FPS, VIDEO_WIDTH, VIDEO_HEIGHT } from "./video-config";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
-        id="MyComp"
+        id="SubtitleReel"
         component={MyComposition}
-        durationInFrames={60}
-        fps={30}
-        width={1280}
-        height={720}
+        durationInFrames={VIDEO_DURATION_FRAMES}
+        fps={VIDEO_FPS}
+        width={VIDEO_WIDTH}
+        height={VIDEO_HEIGHT}
       />
     </>
   );
