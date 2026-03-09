@@ -46,7 +46,8 @@
     "build": "next build",
     "remotion:bundle": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "prisma generate"
   },
   "sideEffects": [
     "*.css"
